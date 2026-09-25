@@ -1,0 +1,12 @@
+# data and big artifacts never go to GitHub (keep them in S3)
+dataset/
+student_resource/
+artifacts/
+output/
+*.zip
+*.parquet
+*.pkl
+*.npz
+__pycache__/
+.ipynb_checkpoints/
+.venv/
